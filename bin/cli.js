@@ -10,3 +10,5 @@ const launch = () => {
   child.on('close', (code) => code !== 0 ? process.exit(1) : undefined)
 
 }
+
+launch()

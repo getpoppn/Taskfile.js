@@ -1,6 +1,6 @@
 {
   "name": "taskfile-js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A node js cli wrapper around taskfile.dev",
   "main": "./bin/cli.js",
   "bin": {
