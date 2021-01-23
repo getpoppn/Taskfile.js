@@ -1,12 +1,41 @@
 {
-  "name": "taskfile",
+  "name": "taskfile-js",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "A node js cli wrapper around taskfile.dev",
+  "main": "./bin/cli.js",
+  "bin": {
+    "task": "./bin/cli.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "files": [
+    "./bin",
+    "./install.js",
+    "./license",
+    "./README.md",
+    ".CHANGELOG.md"
+  ],
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "keywords": [
+    "task runner",
+    "task",
+    "npm",
+    "scripts",
+    "automation",
+    "typescript"
+  ],
+  "scripts": {
+    "postinstall": "install.js"
+  },
+  "author": "Gary Becks <techstar.dev@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "tar": "^6.1.0"
+  }
 }
