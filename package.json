@@ -35,7 +35,7 @@
     "typescript"
   ],
   "scripts": {
-    "postinstall": "install.js"
+    "postinstall": "node install.js"
   },
   "author": "Gary Becks <techstar.dev@hotmail.com>",
   "license": "MIT",
