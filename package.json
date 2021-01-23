@@ -1,6 +1,6 @@
 {
   "name": "taskfile-js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A node js cli wrapper around taskfile.dev",
   "main": "./bin/cli.js",
   "bin": {
@@ -14,9 +14,9 @@
   "files": [
     "./bin",
     "./install.js",
-    "./license",
+    "LICENSE",
     "./README.md",
-    ".CHANGELOG.md"
+    "CHANGELOG.md"
   ],
   "os": [
     "darwin",
