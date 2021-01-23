@@ -11,13 +11,6 @@
     "url": "https://github.com/getpoppn/Taskfile.js.git"
   },
   "homepage": "https://github.com/getpoppn/Taskfile.js",
-  "files": [
-    "./bin",
-    "./install.js",
-    "LICENSE",
-    "./README.md",
-    "CHANGELOG.md"
-  ],
   "os": [
     "darwin",
     "linux",
